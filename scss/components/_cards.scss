@@ -1,12 +1,4 @@
-.cards{
-    /* THIS GOES INTO THE _grid.scss file in layouts*/
-    display: grid;
-	grid-template-columns: minmax(300px, 1fr);
-	justify-content: center;
-    margin: 2rem;
-    
-    
-}
+
 
 .card__img{
     padding-left: 4.9rem;
