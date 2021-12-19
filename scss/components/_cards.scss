@@ -1,0 +1,50 @@
+.cards{
+    /* THIS GOES INTO THE _grid.scss file in layouts*/
+    display: grid;
+	grid-template-columns: minmax(300px, 1fr);
+	justify-content: center;
+    margin: 2rem;
+    
+    
+}
+
+.card__img{
+    padding-left: 4.9rem;
+    padding-top: 4.8rem;
+}
+
+
+.card__title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    color:  $neutral-light-gray;
+    padding-left: 4.9rem;
+}
+
+.card__copy{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: regular;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-left: 4.85rem;
+    padding-right: 4.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.card__sedan{
+    background-color: $primary-bright-orange;
+    border-radius: .8rem .8rem 0rem 0rem;
+    
+}
+
+.card__suvs{
+    background-color: $primary-dark-cyan;
+}
+
+.card__luxury{
+    background-color: $primary-darker-cyan;
+    border-radius: 0rem 0rem .8rem .8rem;
+}
