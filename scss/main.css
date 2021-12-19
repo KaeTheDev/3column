@@ -109,18 +109,6 @@ html {
   border-color: rgba(255, 255, 255, 0.75);
 }
 
-.cards {
-  /* THIS GOES INTO THE _grid.scss file in layouts*/
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: minmax(300px, 1fr);
-      grid-template-columns: minmax(300px, 1fr);
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 2rem;
-}
-
 .card__img {
   padding-left: 4.9rem;
   padding-top: 4.8rem;
@@ -158,6 +146,18 @@ html {
 .card__luxury {
   background-color: #004241;
   border-radius: 0rem 0rem .8rem .8rem;
+}
+
+.cards {
+  /* THIS GOES INTO THE _grid.scss file in layouts*/
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(300px, 1fr);
+      grid-template-columns: minmax(300px, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem;
 }
 
 @media screen and (min-width: 550px) {
